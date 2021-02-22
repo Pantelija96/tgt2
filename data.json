@@ -1,0 +1,18 @@
+"kategorije": {
+  "kategorija1" : {
+    "slika" : "/assets/images/food/brusketiSaPrsutom.jpg",
+    "prikazati": 1
+  },
+  "kategorija2" : {
+    "slika" : "/assets/images/food/brusketiSaPrsutom.jpg",
+    "prikazati": 1
+  },
+  "kategorija3" : {
+    "slika" : "/assets/images/food/brusketiSaPrsutom.jpg",
+    "prikazati": 0
+  },
+  "kategorija4" : {
+    "slika" : "/assets/images/food/brusketiSaPrsutom.jpg",
+    "prikazati": 1
+  }
+}
