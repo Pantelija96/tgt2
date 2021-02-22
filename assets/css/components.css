@@ -961,14 +961,16 @@
 *
 * ---------------------------------------------------------------------------- */
 .layout-boxed {
-  background: url(../images/backgrounds/boxed_bg.png) repeat;
+  background: url(../images/food/brusketiSaPrsutom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .layout-boxed > .navbar {
   margin-left: auto;
   margin-right: auto;
 }
 .layout-boxed .page-container {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
   margin-left: auto;
   margin-right: auto;
   min-width: 0;
@@ -979,21 +981,24 @@
     width: 769px;
   }
 }
+
 @media (min-width: 1025px) {
   .layout-boxed .page-container,
   .layout-boxed > .navbar {
-    width: 1025px;
+    width: 800px;
   }
 }
 @media (min-width: 1200px) {
   .layout-boxed .page-container,
   .layout-boxed > .navbar {
-    width: 1200px;
+    width: 800px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .layout-boxed {
-    background: url(../images/backgrounds/boxed_bg_retina.png) repeat;
+    background: url(../images/food/brusketiSaPrsutom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 }
 /* ------------------------------------------------------------------------------
@@ -15953,7 +15958,7 @@ thead .htCollapseButton:after {
 *
 *  # Responsive extension
 *
-*  Optimise the table's layout for different screen sizes through the dynamic 
+*  Optimise the table's layout for different screen sizes through the dynamic
 *  insertion and removal of columns from the table
 *
 *  Version: 1.0
